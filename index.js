@@ -5,6 +5,7 @@ import morgan from "morgan";
 
 const app = express()
 const port = process.env.PORT || 3000
+
 const morganFormat = ":method :url :status :response-time ms";
 
 app.use(
